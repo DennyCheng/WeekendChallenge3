@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bad Ass Calculator</title>
+  <script src ='vendor/jquery.min.js' type="text/javascript"></script>
+  <script src="scripts/client-app.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="/styles/style.css"/>
+</head>
+<body>
+    <h1>Calculate me!</h1>
+    <form id="number-form">
+
+    <label for ="firstNumb">Number</label>
+    <input type="number" id ="firstnumber" name="x"/>
+
+    <label for="secondNumb">Second Number</label>
+    <input type="number" id="secondnumber" name="y"/>
+
+    <br/>
+    <button class ="operator" id="num_add">Add+</button>
+    <button class ="operator" id="num_sub">Subtract-</button>
+    <br/>
+    <button class ="operator" id="num_multi">Multiply</button>
+    <button class ="operator" id="num_divide">Divide</button>
+    <br/>
+    <button id="clear">Clear</button>
+    </form>
+
+    <h1>Results</h1>
+    <div id="number_result"></div>
+</body>
+</html>

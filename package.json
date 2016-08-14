@@ -1,0 +1,22 @@
+{
+  "name": "weekendchallenge3",
+  "version": "1.0.0",
+  "description": "Weekend challenge 3 ",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "module",
+    "calculator",
+    "madness"
+  ],
+  "author": "Denny Cheng",
+  "license": "ISC"
+}
